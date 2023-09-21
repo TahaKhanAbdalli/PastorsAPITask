@@ -1,0 +1,39 @@
+@use 'app';
+
+.USContactsButton {
+    background-color: white !important;
+    border: 1px solid #46139f !important;
+    color: black !important;
+}
+
+.footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background-color: rgba(211, 205, 205, 0.2);
+
+    label {
+        display: flex !important;
+        align-items: center !important;
+
+        input {
+            margin-right: 5px;
+        }
+    }
+}
+
+.contactsModal {
+    display: block !important;
+    transform: translateY(20%) !important;
+
+    .ModalBody {
+        height: 350px !important;
+    }
+}
+
+.liText:hover {
+    color: blue !important;
+    cursor: pointer !important;
+    transition: color 0.3s ease !important;
+
+}
